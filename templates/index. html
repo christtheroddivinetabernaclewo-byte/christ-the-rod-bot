@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>Christ The Rod Bot</title></head>
+<body style="text-align:center; padding:50px;">
+<h1>Christ The Rod Bot - World Wide AI + Voice</h1>
+<h2>Rev 2:27</h2>
+<p>Your bot is LIVE! Ministry tool is working!</p>
+<input id="msg" placeholder="Type your message..." style="width:80%; padding:10px;">
+<button onclick="send()" style="padding:10px;">Send</button>
+<div id="reply"></div>
+<script>
+async function send(){
+ let m=document.getElementById('msg').value;
+ let r=await fetch('/chat',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:m})});
+ let d=await r.json();
+ document.getElementById('reply').innerText=d.reply;
+}
+</script>
+</body>
+</html>
