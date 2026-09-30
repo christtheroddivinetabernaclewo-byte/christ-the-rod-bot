@@ -1,0 +1,14 @@
+File 2: 02_IT _Services.txt
+COMPANY: Christ The Rod Tech - Founder Boima Musa Tamba.
+LOCATION: Freetown Bo & Koidu, Sierra Leone.
+SERVICES:
+- Computer Sales & Repair
+- Networking and CCTV
+- Website Design for churches and small businesses
+- Python, Data Science, AI Training for youth in Kono
+- Graphic Design and Printing
+- IT Consultancy
+
+MOTTO: Technology with Integrity. We serve God through technology.
+
+CONTACT: [+232 75 541414 / +232 80 274002]
