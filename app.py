@@ -56,7 +56,7 @@ def ask_ai():
         return jsonify({"answer":"ERROR: GROQ_API_KEY not set in Render Environment. Add it."})
     try:
         payload={
-            "model":"llama-3.3-70b-versatile",
+            "model": "llama-3.1-8b-instant"
             "messages":[
                 {"role":"system","content":"You are Christ The Rod Divine Tabernacle AI, assistant to Boima Musa Tamba. Expert in mining (Kono pits 3m bench 45deg), IT, Church Admin, Bible Rev 2:27, and general world knowledge. Answer clearly."},
                 {"role":"user","content":q}
